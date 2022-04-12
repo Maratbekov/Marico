@@ -518,12 +518,13 @@
     font-size: 22px;
   }
   #maine .maine__block__title {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 38px;
   }
   #maine .maine__block__btn {
-    padding: 10px 12px 10px 12px;
-  }
+      padding: 10px 12px 10px 12px;
+    }
+
   #maine .maine__block__link {
     padding: 9px 13px;
   }
@@ -621,6 +622,11 @@
 
 @media(max-width: 375px) {
 
+  #header .header__logo {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
   #steps .container .steps__block__title {
     font-size: 18px;
   }
@@ -667,12 +673,38 @@
   #we .container .we__title {
     font-size: 18px;
   }
+  #footer .footer__block__logo {
+    font-size: 19px;
+    &__img{
+      width: 20%;
+    }
+  }
 
 }
 
 @media(max-width: 320px) {
+  #header .header__img {
+    width: 16%;
+  }
+  #header .header__logo {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  #spot .spot__cards__desc {
+    font-size: 11px;
+  }
+  #spot .spot__cards__desc__span {
+    padding: 1px 10px 3px 10px;
+  }
 
   #link .link__card__img {
     top: 45%;
+  }
+  #footer .footer__block__logo {
+    font-weight: 500;
+    font-size: 13px;
+    &__img{
+      width: 20%;
+    }
   }
 }
